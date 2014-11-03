@@ -1,6 +1,6 @@
 class zc {
         package {'zabbix-agent':
-        ensure => removed,
+        ensure => installed,
         }
 }
 
